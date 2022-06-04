@@ -1,0 +1,335 @@
+* {
+    margin: 0;
+}
+
+.bg {
+    background-image: url('bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.dv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hf {
+    font-size: 17px;
+    color: black;
+    padding: 15px 30px;
+}
+
+.nav {
+    display: flex;
+    font-size: 17px;
+    list-style-type: none;
+    margin-right: 0px;
+}
+
+.nav li {
+    padding: 15px 30px;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: black;
+    opacity: 1;
+    transition: all 0.3s ease 0s;
+}
+
+.nav a:hover {
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 768px) {
+    .dv {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 35px;
+    }
+}
+
+.hf2 {
+    margin-top: 200px;
+    margin-left: 50px;
+    font-size: 50px;
+    color: black;
+}
+
+.pf {
+    margin-left: 50px;
+    font-size: 30px;
+    color: black;
+}
+
+@media screen and (max-width: 600px) {
+    .hf2 {
+        font-size: 30px;
+    }
+
+    .pf {
+        font-size: 21px;
+    }
+}
+
+/*  */
+
+.bg2 {
+    background-image: url('about.jpg');
+    max-height: 200%;
+    height: 400px;
+}
+
+.bg2 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.hf3 {
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    margin-top: 90px;
+}
+
+@media screen and (max-width: 768px) {
+    .bg2 {
+        height: 600px;
+    }
+}
+
+.dv2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dv3 {
+    margin-left: 15px;
+    width: 605px;
+    height: 600px;
+}
+
+.img {
+    margin-top: 15px;
+    margin-left: 30px;
+    width: 550px;
+    height: 570px;
+    cursor: pointer;
+}
+
+.hf4 {
+    font-size: 30px;
+    margin-top: 100px;
+    text-align: center;
+    color: black;
+}
+
+.pf2 {
+    text-align: center;
+    color: black;
+    font-size: 17px;
+}
+
+@media screen and (max-width: 600px) {
+    .dv2 {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .dv3 {
+        margin-left: 15px;
+        width: 455px;
+        height: 600px;
+    }
+
+    .img {
+        margin-top: 15px;
+        margin-left: 29px;
+        width: 400px;
+        height: 500px;
+        cursor: pointer;
+    }
+
+    .hf4 {
+        font-size: 30px;
+        margin-top: 100px;
+        text-align: center;
+        color: black;
+    }
+    
+    .pf2 {
+        text-align: center;
+        color: black;
+        font-size: 17px;
+    }
+}
+
+/*  */
+
+.bg3 {
+    background-image: url('portfolio.jpg');
+    max-height: 200%;
+    height: 400px;
+}
+
+.bg3 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+@media screen and (max-width: 768px) {
+    .bg3 {
+        height: 600px;
+    }
+}
+
+.dv4 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dv5 {
+    margin-left: 15px;
+    width: 605px;
+    height: 700px;
+}
+
+.hf5 {
+    margin-top: 15px;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+
+.img2 {
+    margin-left: 80px;
+    width: 450px;
+    height: 580px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .dv4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .dv4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .dv5 {
+        margin-left: 15px;
+        width: 440px;
+        height: 600px;
+    }
+    
+    .hf5 {
+        margin-top: 15px;
+        font-size: 30px;
+        color: black;
+        text-align: center;
+    }
+    
+    .img2 {
+        margin-left: 50px;
+        width: 350px;
+        height: 480px;
+        cursor: pointer;
+    }
+}
+
+/*  */
+
+.bg4 {
+    background-image: url('skills.jpg');
+    max-height: 200%;
+    height: 400px;
+}
+
+.bg4 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+@media screen and (max-width: 768px) {
+    .bg4 {
+        height: 600px;
+    }
+}
+
+.dv6 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dv7 {
+    margin-left: 15px;
+    width: 605px;
+    height: 200px;
+}
+
+.hf6 {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
+
+.pf3 {
+    text-align: center;
+    font-size: 17px;
+    color: black;
+}
+
+@media screen and (max-width: 768px) {
+    .dv6 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .dv6 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .dv7 {
+        margin-left: 15px;
+        width: 440px;
+        height: 200px;
+    }
+    
+    .hf6 {
+        margin-top: 10px;
+        text-align: center;
+        font-size: 30px;
+        color: black;
+    }
+    
+    .pf3 {
+        text-align: center;
+        font-size: 17px;
+        color: black;
+    }
+}
